@@ -42,5 +42,6 @@ public class Program {
         jedisPool.returnResource(subscriberJedis);
         jedisPool.returnResource(publisherJedis);
         jedisPool.close();
+        System.out.println("12432154");
     }
 }
