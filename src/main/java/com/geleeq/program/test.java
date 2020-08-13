@@ -5,5 +5,6 @@ public class test {
         System.out.println("hwfiuni");
         System.out.println("hwfiuni");
         System.out.println("hwfiuni");
+        System.out.println("hwfiuni");
     }
 }
