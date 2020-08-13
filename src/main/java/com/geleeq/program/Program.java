@@ -44,5 +44,6 @@ public class Program {
         jedisPool.close();
         System.out.println("bifuheuihf8ugh8");
         System.out.println("bifuheuihf8ugh8");
+        System.out.println("bifuheuihf8ugh8");
     }
 }
