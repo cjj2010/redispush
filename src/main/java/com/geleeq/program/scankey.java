@@ -15,7 +15,7 @@ public class scankey {
 
         Jedis publisherJedis = jedisPool.getResource();
         //发布，循环读取输入流，quit停止
-//        new Publisher(publisherJedis).start1();
+        new Publisher(publisherJedis).start1();
         List<String> aa = new Publisher(publisherJedis).scanAll("0","*",50);
         System.out.println(aa);
         System.out.println(aa.size());
